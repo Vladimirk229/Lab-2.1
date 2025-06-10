@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <html lang="en">
+        <title>Contact Page</title>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        
+        <!-- Fonts & Icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="contact-page">
+        <main>
+            <!-- Form section -->
+            <div class="contact-form-section">
+                <form aria-labelledby="form-heading" aria-describedby="form-description">
+                    <h2 id="form-heading" class="contact-form-heading">Reach <span>Out</span></h2>
+                    <div id="form-description" class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</div>
+                    <input class="contact-input" type="text" placeholder="Full name" aria-label="Full name" />
+                    <input class="contact-input" type="text" placeholder="Email" aria-label="Email" />
+                    <textarea class="contact-textarea" rows="4" cols="50" placeholder="Your message..." aria-label="Your message"></textarea>
+                    <button class="contact-submit-button" type="button" onclick="submitForm()" aria-label="Submit the contact form">Send the message</button>
+                </form>
+                <img class="contact-image" src="images/connect.jpg" alt="Illustration representing connection" />
+            </div>
+        </main>
+    </body>
+</html>

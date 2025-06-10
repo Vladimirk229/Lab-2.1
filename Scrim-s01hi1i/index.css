@@ -1,0 +1,103 @@
+html {
+    font-size: 16px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #333333;
+}
+
+body, .contact-input, .contact-textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-page {
+    min-height: 100vh;
+    max-width: 56.25rem; /* 900px */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contact-form-section {
+    display: flex;
+    width: 50rem; /* 800px */
+    padding: 1.875rem; /* 30px */
+    margin: 0 auto;
+}
+
+.contact-image {
+    transform: rotate(90deg);
+    width: 56.25rem; /* 900px */
+    margin-left: -3.75rem; /* -60px */
+}
+
+.contact-form-heading {
+    font-size: 3rem; /* 48px */
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-form-heading span {
+    color: #007000;
+}
+
+.contact-form-intro {
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.contact-input {
+    display: block;
+    width: 18.75rem; /* 300px */
+    margin: 0.3125rem auto 0.9375rem; /* 5px auto 15px */
+    border-radius: 1.25rem; /* 20px */
+    padding: 0.5rem 1.25rem; /* 8px 20px */
+    font-size: 1rem; /* 16px */
+    border: 0.125rem solid #333333; /* 2px */
+}
+
+.contact-textarea {
+    max-width: 18.75rem; /* 300px */
+    margin: 0.3125rem auto 0.9375rem; /* 5px auto 15px */
+    padding: 1rem 1.25rem; /* 16px 20px */
+    border: 0.125rem solid #333333; /* 2px */
+    border-radius: 1.25rem; /* 20px */
+}
+
+.contact-input::-webkit-input-placeholder,
+.contact-textarea::-webkit-input-placeholder {
+    color: black;
+}
+
+.contact-submit-button {
+    border: 0.125rem solid #333333; /* 2px */
+    padding: 0.5rem 1.25rem; /* 8px 20px */
+    border-radius: 2.5rem; /* 40px */
+    margin: 0.625rem auto 0; /* 10px auto 0 */
+    width: 12.5rem; /* 200px */
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-submit-button:hover {
+    background-color: #dddddd;
+}
+
+.input {
+    color: black;
+}
+
+
+/* 
+Current issues:
+- Placeholder text has poor text contrast.
+- Missing alternative text for images.
+- Missing labels for input fields.
+- Ambiguous button text.
+- Semantic HTML is lacking.
+- Font-sizes are defined in px.
+
+Your final challenge: Use your new superpower to make our contact page accessible!🦸
+*/
